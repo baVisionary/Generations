@@ -8,7 +8,7 @@ class Person {
   }
 
   report() {
-    return `${this.name}${nameGenerations[this.nameGen]}: ${this.hair} /|"|\\ ${this.eyes} <o> ${this.vertical.toFixed(1)}" vertical`;
+    return `${this.name}${nameGenerations[this.nameGen]}: ${this.hair} hair ${this.eyes} eyes ${this.vertical.toFixed(1)}" vertical`;
   }
 
 }
@@ -50,19 +50,19 @@ var manNames = [
 ]
 
 var possibleEyeColors = [
-  "green",
-  "blue",
-  "black",
-  "brown",
-  "cerulean",
-  "hazel"
+  "Green",
+  "Blue",
+  "Black",
+  "Brown",
+  "Cerulean",
+  "Hazel"
 ]
 
 var possibleHairColors = [
-  "black",
-  "brown",
-  "blond",
-  "red"
+  "Black",
+  "Brown",
+  "Blond",
+  "Red"
 ]
 
 var generations = [
